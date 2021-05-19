@@ -76,37 +76,62 @@ his course materials (although any errors are mine).
    * [XSS Filter Evasion Cheat Sheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
    * [Class slides](https://docs.google.com/presentation/d/12Z1WZZMLmlaJ4Uypq-Ck7POyq6EE2-VZAgvoWOmM6oI/edit)
 
-* Week 06 - February 25 - Fingerprinting and Privacy
+* Week 06 - February 25 - XSS and Content Security Policy (CSP)
+   * [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
+   * [CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy](https://research.google/pubs/pub45542/)
+   * [Class slides](https://docs.google.com/presentation/d/1amxk2d59TCL0ya3ZffxS9qe3J8pn_TOStDL70kbyoas/edit)
+
+* Week 07 - March 4 - Fingerprinting and Privacy
+   * [Browser Fingerprinting: An Introduction and the Challenges Ahead](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead)
+   * [Class slides](https://web.stanford.edu/class/cs253/lectures/Lecture%2008.pdf)
 
 
-* Week 07 - March 4 - UI Denial-of-service, Phishing, Side Channels
-
-
-* Week 08 - March 11 - Code Injection
+* Week 08 - March 11 - (no class)
 
 
 * Week 09 - March 18 - Transport Layer Security
+    * [Looking back at the Snowden revelations](https://blog.cryptographyengineering.com/2019/09/24/looking-back-at-the-snowden-revelations/)
+    * [HTTPS encryption on the web](https://transparencyreport.google.com/https/overview)
+    * [Class slides](https://docs.google.com/presentation/d/1piE1r4YJuQTiy5_WCHQN5KaAqY29eXSsAJGr8jx-LxQ/edit#slide=id.gc8971b5675_0_189)
 
 
-* Week 10 - March 25 - Authentication
+* Week 10 - March 25 - HSTS, Certificate Transparency
+    * [Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
+    * [Protecting Against HSTS Abuse](https://webkit.org/blog/8146/protecting-against-hsts-abuse/)
+    * [HTTP Public Key Pinning (HPKP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)
+    * [Certificate Transparency](https://tools.ietf.org/html/rfc6962)
+    * [Class slides](https://web.stanford.edu/class/cs253/lectures/Lecture%2012.pdf)
 
 
-* Week 11 - April 1 - Server security, Safe coding practices
+* Week 11 - April 1 - Authentication
+    * [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+    * [Class slides](https://docs.google.com/presentation/d/1oJ8hlNmYIuwxbGL1fcclhDF4eVNTi3c1zp_8t-kzG8Q/edit)
 
 
-* Week 12 - April 8 - DNS rebinding attacks
+* Week 12 - April 8 - Local HTTP Server Security
+    * [Zoom Zero Day: 4+ Million Webcams & maybe an RCE? Just get them to visit your website!](https://infosecwriteups.com/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5)
+    * [Class slides](https://docs.google.com/presentation/d/1YWHuGvgKFgSS19D6RZwADQ2iwhbEkgB3dDlv_epHiWc/edit)
+
+* Week 13 - April 15 - DNS rebinding attacks
+    * [Millions of Streaming Devices Are Vulnerable to a Retro Web Attack](https://www.wired.com/story/chromecast-roku-sonos-dns-rebinding-vulnerability/)
+    * [Protecting Browsers from DNS Rebinding Attacks](https://crypto.stanford.edu/dns/dns-rebinding.pdf)
+    * [Class slides](https://docs.google.com/presentation/d/1F-SdAPhDDvmLXhz2gm8R04vWvjH-HnumtMzyzl1M8jw/edit)
 
 
-* Week 13 - April 15 - Browser architecture
+* Week 14 - April 22 - UI Denial-of-service, Phishing, Side Channels
+    * [The Annoying Site](https://github.com/feross/theannoyingsite.com)
+    * [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/)
+    * [The inception bar: a new phishing method](https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/)
+    * [Class slides](https://docs.google.com/presentation/d/15ZrO-MtkyTaF01hDkRcMzrkfYBZm4g1P_Q-RqRt7ic0/edit)
 
 
-* Week 14 - April 22 - Web Archiving 
+* Week 15 - April 29 - Rehosting, Web Archiving
+    * [Rewriting History: Changing the Archived Web from the Present](https://rewritinghistory.cs.washington.edu/) ([slides](slides/Lerner-ACM-CCS-2017.pdf), [video](https://www.youtube.com/watch?v=Pn65m3l0Zw8), [DSHR blog post](https://blog.dshr.org/2017/09/attacking-users-of-wayback-machine.html))
+    * [Thinking like a hacker: Security Considerations for High-Fidelity Web Archives](http://labs.rhizome.org/presentations/security.html) ([DSHR blog post](https://blog.dshr.org/2017/06/wac2017-security-issues-for-web-archives.html))
+    * [Melting Pot of Origins: Compromising the Intermediary Web Services that Rehost Websites](https://www.ndss-symposium.org/ndss-paper/melting-pot-of-origins-compromising-the-intermediary-web-services-that-rehost-websites/) ([slides](https://www.ndss-symposium.org/wp-content/uploads/24140-slides.pdf), [video](https://www.youtube.com/watch?v=uhA_KGTQXP0))
 
 
-* Week 15 - April 29 - TBD
-
-
-* Week 16 - May 6 - Exam
+* Week 16 - May 6 - Exam 
 
 ### Assignments (subject to change)
 
@@ -120,3 +145,15 @@ his course materials (although any errors are mine).
 
 * Assignment 3: Cookie Report
    * [Due: March 4](/assignments/assignment-3.md)
+
+* Assignment 4: Frames
+   * [Due: March 18](/assignments/assignment-4.md)
+
+* Assignment 5: Same-origin Policy, CORS, CSP
+   * [Due: April 1](/assignments/assignment-5.md)
+
+* Assignment 6: Fingerprinting
+   * Due: [April 15](/assignments/assignment-6.md)
+
+* Assignment 7: Phishing
+   * Due: [May 7](/assignments/assignment-7.md)
